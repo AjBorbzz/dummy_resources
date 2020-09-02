@@ -1,0 +1,23 @@
+version: 1
+data:
+  source:
+    mysql:
+      source_api_db:
+        mysql:
+          driver: com.mysql.cj.jdbc.Driver
+          conf:
+            host: "localhost"
+            port: "3310"
+            database: "dummy_db"
+            user: "user.dummy"
+            password: "sdfikuhasx"
+      data:
+        driver: com.mysql.cj.jdbc.Driver
+        conf:
+          host: "localhost"
+          port: "3904"
+          database: "dummy_database"
+          user: dummy.user
+          password: dummyPassword
+
+
